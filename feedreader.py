@@ -17,7 +17,6 @@ def feed2json():
     RSS_URLs = [
         "https://news.google.co.jp/news/rss",
         "http://srad.jp/sradjp.rss",
-        "https://news.yahoo.co.jp/pickup/rss.xml",
     ]
 
     def convert_date(d):
