@@ -5,7 +5,7 @@ RSS reader using flask and feedparser.
 
 # How to use
 ~~~
-$python3 feedreader.py
+$ python3 feedreader.py
 ~~~
 
 access localhost:5000
