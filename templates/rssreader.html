@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Feed Reader</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/trontastic/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='loadrss.js')}}"></script>
+  </head>
+  <body>
+    <div>
+      <input type="button" value="RSS load" id="submit">
+      <span id="wait_time"></span>
+      <span id="clock"></span>
+    </div>
+    <div id="rss_space"></div>
+  </body>
+</html>
